@@ -29,7 +29,7 @@ NC='\033[0m' # No Color
 USE_DOCKER=true
 FIX_WIFI=true  # Applied by default for stability
 INSTALL_DIR="$HOME/dune-weaver"
-REPO_URL="https://github.com/tuanchris/dune-weaver"
+REPO_URL="https://github.com/mbratlund/dune-weaver"
 
 # Parse arguments
 while [[ $# -gt 0 ]]; do
@@ -46,7 +46,7 @@ while [[ $# -gt 0 ]]; do
             echo "Dune Weaver Raspberry Pi Setup Script"
             echo ""
             echo "One-command install:"
-            echo "  curl -fsSL https://raw.githubusercontent.com/tuanchris/dune-weaver/main/setup-pi.sh | bash"
+            echo "  curl -fsSL https://raw.githubusercontent.com/mbratlund/dune-weaver/main/setup-pi.sh | bash"
             echo ""
             echo "Or from existing clone:"
             echo "  cd ~/dune-weaver && bash setup-pi.sh [OPTIONS]"

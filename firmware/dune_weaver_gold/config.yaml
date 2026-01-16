@@ -11,10 +11,10 @@ stepping:
 axes:
   shared_stepper_disable_pin: i2so.0
   x:
-    steps_per_mm: 200
+    steps_per_mm: 215
     max_rate_mm_per_min: 500
     acceleration_mm_per_sec2: 10
-    max_travel_mm: 325
+    max_travel_mm: 220
     soft_limits: false
     motor0:
       limit_neg_pin: gpio.36
@@ -30,10 +30,10 @@ axes:
       limit_pos_pin: NO_PIN
       limit_all_pin: NO_PIN
   y:
-    steps_per_mm: 270
+    steps_per_mm: 278
     max_rate_mm_per_min: 500
     acceleration_mm_per_sec2: 10
-    max_travel_mm: 6.25
+    max_travel_mm: 10
     soft_limits: false
     motor0:
       limit_neg_pin: gpio.35
